@@ -1,11 +1,12 @@
 package com.reice.misc.ColorFingers;
 
 /**
- * Write a description of class AngleCalc here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author George Ebbinason 
+ * @version 1.1
+ * @since March 2014
  */
+
 public class ColorCalc
 {
     // instance variables - replace the example below with your own
@@ -13,7 +14,7 @@ public class ColorCalc
     private MPoint p2;
 
     /**
-     * Constructor for objects of class AngleCalc
+     * Constructor for objects of class ColorCalc
      */
     public ColorCalc(MPoint p1, MPoint p2)
     {
@@ -22,12 +23,7 @@ public class ColorCalc
         this.p2 = p2;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
+
     public double calculateAngle()
     { 
         double dx,dy;
